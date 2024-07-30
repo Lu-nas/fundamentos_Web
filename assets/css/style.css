@@ -1,0 +1,117 @@
+/*Estilos da pagina index.html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    background-color: #b6a8a8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333232;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+/* Estilos comuns */
+header {
+    background-color: #b6a8a8;
+    color: white;
+    padding: 30px 0px 0.015px 25px;
+    text-align: center;
+}
+
+header h1 {
+margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-inline-end: 20px 0px 0px ;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: rgb(12, 4, 46);
+    text-decoration:dashed
+}
+
+main {
+    margin-top: 25px;
+ } 
+
+nav img {
+   width: 275px;
+    height: auto;
+    border-radius: 80%;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5px rgba(0,0,0,0.1);
+}
+
+ h2.center, p.center {
+    text-align: center;
+ }
+
+/*Estilos especificos Home*/
+
+  .container {
+    background-color: white;
+    padding: 58px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(29, 6, 82, 0.2);
+ }
+
+/*Estilos da pagina contato.html*/
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(12, 5, 105, 0.753);
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+form button:hover {
+    background-color: #555;
+}
+
+
